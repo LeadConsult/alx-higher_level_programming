@@ -2,9 +2,9 @@
 def magic_calculation(a, b):
     from magic_calculation_102 import add, sub
     if a < b:
-        x = add(a, b)
-        for y in range(4, 6):
-            x = add(x, y)
-        return (x)
+        c = add(a, b)
+        for i in range(4, 6):
+            c = add(c, i)
+        return (c)
     else:
         return (sub(a, b))
